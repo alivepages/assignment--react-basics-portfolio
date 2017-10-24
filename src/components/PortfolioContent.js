@@ -3,7 +3,7 @@ import Header from './Header'
 import Summary from './Summary'
 import ContactInfo from './ContactInfo'
 
-class PortfolioContent extends Component {
+export default class PortfolioContent extends Component {
   render() {
     return (
       <div class="portfolio-content">
@@ -14,5 +14,3 @@ class PortfolioContent extends Component {
     );
   }
 }
-
-export default PortfolioContent;

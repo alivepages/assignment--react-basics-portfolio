@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PortfolioFixed extends Component {
+export default class PortfolioFixed extends Component {
   render() {
     return (
       <div class="portfolio-fixed">
@@ -11,5 +11,3 @@ class PortfolioFixed extends Component {
     );
   }
 }
-
-export default PortfolioFixed;

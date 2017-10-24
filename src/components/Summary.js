@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Summary extends Component {
+export default class Summary extends Component {
   render() {
     return (
       <section>
@@ -10,5 +10,3 @@ class Summary extends Component {
     );
   }
 }
-
-export default Summary;
